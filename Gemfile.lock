@@ -1,3 +1,16 @@
+GIT
+  remote: https://github.com/sonots/kondate.git
+  revision: 858d6cd4e23908422e5651ab24c9f10bc06af558
+  ref: 858d6cd
+  specs:
+    kondate (0.4.9)
+      facter
+      highline
+      itamae
+      parallel
+      serverspec
+      thor
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -13,13 +26,6 @@ GEM
       hashie
       schash (~> 0.1.0)
       specinfra (>= 2.64.0, < 3.0.0)
-      thor
-    kondate (0.4.9)
-      facter
-      highline
-      itamae
-      parallel
-      serverspec
       thor
     multi_json (1.12.1)
     net-scp (1.2.1)
@@ -62,7 +68,7 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  kondate
+  kondate!
   rake
 
 BUNDLED WITH
